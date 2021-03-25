@@ -46,8 +46,8 @@ The config.json file includes all necessary settings that need to be configured 
         "passphrase": "if the node wallet is encrypted enter the passphrase here, otherwise leave empty",
         "passenvname" : "<the ENV name to store your passphrase instead of the field above>",
         "decimals": <number of decimals of the token>,
-        "gatewayAddress": "<ETH address of the gateway>",
-        "coldwallet": "<ETH address of the gateway's cold wallet (if in use)>",
+        "gatewayAddress": "<BTC address of the gateway>",
+        "coldwallet": "<BTC address of the gateway's cold wallet (if in use)>",
         "fee": <the total fee you want to collect on the gateway, calculated in the proxy token, e.g., 0.1>,
         "gateway_fee": <the gatewway part of the fee calculated in the proxy token, e.g., 0.1>,
         "network_fee": <the tx part of the fee calculated in the proxy token, e.g., 0.1>,
@@ -77,7 +77,7 @@ The config.json file includes all necessary settings that need to be configured 
 After starting the gateway, it will provide a webpage on the port set in config.json.
 
 ## Usage of the gateway
-This is a simple gateway for TN tokens to the ERC20 Platform and vice versa. For sending tokens from the Etherium Platform to the TN blockchain, fill in your source ETH wallet address and the receiving Turtle Network wallet to create a tunnel. Then send the tokens to the Ethereum address of the gateway.
+This is a simple gateway for TN tokens to the ERC20 Platform and vice versa. For sending tokens from the Etherium Platform to the TN blockchain, fill in your source BTC wallet address and the receiving Turtle Network wallet to create a tunnel. Then send the tokens to the Ethereum address of the gateway.
 
 For sending tokens from the TN Platform to the Etherium blockchain, just add the Etherium address that should receive the tokens as the description of the transfer and send the tokens to the TN address of the gateway.
 

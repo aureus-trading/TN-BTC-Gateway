@@ -1,6 +1,6 @@
 FROM python:alpine3.7
-COPY . /TN-ERC20-Gateway
-WORKDIR /TN-ERC20-Gateway
+COPY . /TN-BTC-Gateway
+WORKDIR /TN-BTC-Gateway
 RUN apk update
 RUN apk upgrade
 RUN apk add build-base 
