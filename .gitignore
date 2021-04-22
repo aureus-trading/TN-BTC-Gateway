@@ -10,3 +10,6 @@ test.py
 gateway.db-journal
 gateway.db.imported
 config copy.json
+
+# ide jetbrains
+**/.idea/*
